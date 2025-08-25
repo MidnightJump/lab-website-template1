@@ -1,14 +1,13 @@
 ---
-title: Projects
+title: 项目
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: 软件、数据集等
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}项目
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+我们开发各种创新项目，包括开源软件、数据集、工具和应用程序。这些项目体现了我们在技术研究和实际应用方面的能力。
 
 {% include tags.html tags="publication, resource, website" %}
 
@@ -16,12 +15,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Featured
+## 重点项目
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
-## More
+## 更多项目
 
 {% include list.html component="card" data="projects" filter="!group" style="small" %}

@@ -1,15 +1,13 @@
 ---
-title: Team
+title: 团队
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: 关于我们的团队
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}团队
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+我们的团队由经验丰富的研究人员、充满激情的学生和专业的工程师组成。我们欢迎来自不同背景的人才加入我们的研究团队，共同推动科技进步。
 
 {% include section.html %}
 
@@ -18,9 +16,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+我们致力于创建一个开放、协作的研究环境，鼓励创新思维和跨学科合作。团队成员来自世界各地，带来了丰富的文化背景和专业知识。
 
 {% include section.html %}
 

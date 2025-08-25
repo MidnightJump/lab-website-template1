@@ -1,32 +1,30 @@
 ---
-title: Contact
+title: 联系我们
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: 邮箱、地址和位置
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}联系我们
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+如果您对我们的研究感兴趣，想要加入我们的团队，或者有任何合作意向，欢迎通过以下方式与我们联系。我们期待与您建立联系！
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="contact@MidnightJump.com"
+  link="contact@MidnightJump.com"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="+86-xxx-xxxx-xxxx"
+  link="+86-xxx-xxxx-xxxx"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
+  tooltip="我们的位置，方便导航"
   link="https://www.google.com/maps"
 %}
 
@@ -37,7 +35,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/photo.jpg"
-  caption="Lorem ipsum"
+  caption="实验室环境"
 %}
 
 {% endcapture %}
@@ -47,7 +45,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/photo.jpg"
-  caption="Lorem ipsum"
+  caption="研究设备"
 %}
 
 {% endcapture %}
@@ -57,21 +55,21 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**实验室地址**  
+[详细地址信息]  
+[城市，省份，邮编]
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**办公时间**  
+周一至周五: 9:00-18:00  
+周末: 预约开放
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**联系方式**  
+邮箱: contact@MidnightJump.com  
+电话: +86-xxx-xxxx-xxxx
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

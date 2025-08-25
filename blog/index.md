@@ -1,14 +1,13 @@
 ---
-title: Blog
+title: 博客
 nav:
   order: 4
-  tooltip: Musings and miscellany
+  tooltip: 最新动态和杂谈
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}博客
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+在这里我们分享实验室的最新动态、研究成果、技术见解和行业观察。通过博客，我们希望能够与更广泛的社区分享我们的想法和经验。
 
 {% include section.html %}
 
